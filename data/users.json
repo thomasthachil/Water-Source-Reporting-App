@@ -1,0 +1,62 @@
+{
+    "Riley" : {
+        "account_type" : "Manager",
+        "attempts" : 0,
+        "city" : "Atlanta",
+        "email" : "riley@osborn.com",
+        "locked" : false,
+        "password" : "riley",
+        "state" : "GA",
+        "street_address" : "12 North Ave",
+        "username" : "Riley",
+        "zip_code" : 30004
+    },
+    "ShivamPatel" : {
+        "account_type" : "Worker",
+        "attempts" : 7,
+        "city" : "Atlanta",
+        "email" : "shivam@patel.com",
+        "locked" : false,
+        "password" : "shivam",
+        "state" : "GA",
+        "street_address" : "120 North Ave",
+        "username" : "ShivamPatel",
+        "zip_code" : 30004
+    },
+    "TomThachil" : {
+        "account_type" : "User",
+        "attempts" : 0,
+        "city" : "Atlanta",
+        "email" : "tom@thachil.com",
+        "locked" : false,
+        "password" : "tom",
+        "state" : "GA",
+        "street_address" : "1234 North",
+        "username" : "TomThachil",
+        "zip_code" : 123456
+    },
+    "VarunBallari" : {
+        "account_type" : "Manager",
+        "attempts" : 0,
+        "city" : "Atlanta",
+        "email" : "varun@ballari.com",
+        "locked" : false,
+        "password" : "password",
+        "state" : "GA",
+        "street_address" : "120 North Ave NE",
+        "username" : "VarunBallari",
+        "zip_code" : 30004
+    },
+    "riles" : {
+        "account_type" : "User",
+        "attempts" : 0,
+        "city" : "Rome ",
+        "email" : "osbornriley@gmail.com",
+        "locked" : false,
+        "password" : "poop",
+        "state" : "Georgia ",
+        "street_address" : "42 p Sherman",
+        "username" : "riles",
+        "zip_code" : "30075"
+    }
+}

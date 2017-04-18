@@ -1,0 +1,26 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+#mainSection {
+    height: 2000px;
+}
+
+#loginContainer {
+    margin-top: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 200px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
