@@ -1,0 +1,57 @@
+{
+  "120 North Avenue, Atlanta, GA 30313" : {
+    "contaminantPPM" : 86,
+    "date" : "Wed Jan 27 21:13:39 EDT 2017",
+    "llat" : 33.7700594,
+    "llong" : -84.3916245,
+    "location" : "120 North Avenue, Atlanta, GA 30313",
+    "reportNumber" : 0,
+    "user" : "ShivamPatel",
+    "virusPPM" : 10,
+    "waterCondition" : "Unsafe"
+  },
+  "120 North Avenue, Atlanta, GA 3031349" : {
+    "contaminantPPM" : 38,
+    "date" : "Mon Apr 03 13:43:54 EDT 2017",
+    "llat" : 33.7700594,
+    "llong" : -84.3916245,
+    "location" : "120 North Avenue, Atlanta, GA 30313",
+    "reportNumber" : 0,
+    "user" : "Riley",
+    "virusPPM" : 49,
+    "waterCondition" : "Safe"
+  },
+  "3364 Archgate Ct, Milton, GA 30004" : {
+    "contaminantPPM" : 20,
+    "date" : "Wed Dec 28 20:20:23 EDT 2017",
+    "llat" : 34.1247909,
+    "llong" : -84.2616712,
+    "location" : "3364 Archgate Ct, Milton, GA 30004",
+    "reportNumber" : 0,
+    "user" : "ShivamPatel",
+    "virusPPM" : 48,
+    "waterCondition" : "Safe"
+  },
+  "3380 Archgate Ct, Milton, GA 30004" : {
+    "contaminantPPM" : 32,
+    "date" : "Wed Feb 17 12:47:02 EDT 2017",
+    "llat" : 34.1252504,
+    "llong" : -84.2617087,
+    "location" : "3380 Archgate Ct, Milton, GA 30004",
+    "reportNumber" : 2,
+    "user" : "ShivamPatel",
+    "virusPPM" : 2,
+    "waterCondition" : "Safe"
+  },
+  "847 Techwood drive Atlanta, GA 30332" : {
+    "contaminantPPM" : 5,
+    "date" : "Wed Jun 15 12:55:25 EDT 2017",
+    "llat" : 33.7778489,
+    "llong" : -84.391916,
+    "location" : "847 Techwood drive Atlanta, GA 30332",
+    "reportNumber" : 3,
+    "user" : "Riley",
+    "virusPPM" : 34,
+    "waterCondition" : "Safe"
+  }
+}

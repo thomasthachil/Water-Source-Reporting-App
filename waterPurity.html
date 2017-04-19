@@ -17,10 +17,32 @@
       <div class="container">
           <h3>Water Purity</h3>
           <div class="row">
+              <table class="striped responsive-table">
+                  <thead>
+                      <tr>
+                          <th>Location</th>
+                          <th>Latitude</th>
+                          <th>Longitude</th>
+                          <th>User</th>
+                          <th>Date</th>
+                          <th>Water Condition</th>
+                          <th>Contaminant PPM</th>
+                          <th>Virus PPM</th>
+                      </tr>
+                  </thead>
+                  <tbody id="waterPurity">
 
+                  </tbody>
+              </table>
           </div>
       </div>
   </div>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtTMRk50l_LAMDki0JaWlj-EYXjRVWCEk&callback=initMap">
+  </script>
+  <div id="map"></div>
+    <!-- Replace the value of the key parameter with your own API key. -->
+
 
 
 
