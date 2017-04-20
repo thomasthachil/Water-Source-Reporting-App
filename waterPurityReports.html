@@ -15,9 +15,40 @@
 
   <div class="section">
       <div class="container">
-          <h3>Submit Water Purity Report</h3>
+
           <div class="row">
-              
+              <div class="col s8 offset-s2">
+                  <h3>Submit Water Purity Report</h3>
+                  <!-- Dropdown Trigger -->
+                  <a class='light-blue dropdown-button btn' href='#' data-activates='dropdown1'>USER TYPE</a>
+
+                  <!-- Dropdown Structure -->
+                  <ul id='dropdown1' class='light-blue-text dropdown-content'>
+                    <li><a href="#!">User</a></li>
+                    <li><a href="#!">Worker</a></li>
+                    <li><a href="#!">Manager</a></li>
+                    <li><a href="#!">Admin</a></li>
+                  </ul>
+                  <div class="input-field">
+                    <input id="username" type="text" class="validate">
+                    <label for="email">Username</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="password" type="password" class="validate">
+                    <label for="password">Password</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                  <div class="input-field">
+                    <input id="address" type="text" class="validate">
+                    <label for="address">Address</label>
+                  </div>
+                  <button id="login" class="btn light-blue waves-effect waves-light" type="submit" name="action">SAVE CHANGES
+                      <i class="material-icons right">send</i>
+                  </button>
+              </div>
           </div>
       </div>
   </div>
