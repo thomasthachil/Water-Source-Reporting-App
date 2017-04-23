@@ -3,6 +3,7 @@ var arrLong = [];
 
 (function($){
   $(function(){
+    $('select').material_select();
     $('#loginSubmit').click(function() {
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
