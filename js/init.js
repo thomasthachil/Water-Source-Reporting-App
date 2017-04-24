@@ -1,8 +1,11 @@
 var arrLat = [];
 var arrLong = [];
 
+
 (function($){
   $(function(){
+      var foundUser = sessionStorage.getItem('user');
+      console.log("found user is " + foundUser);
     $('select').material_select();
     $('#loginSubmit').click(function() {
         var username = document.getElementById("username").value;
@@ -25,7 +28,7 @@ var arrLong = [];
             }
             else {
                 var foundUser = username;
-                sessionStorage.setItem('user', 'foundUser');
+                sessionStorage.setItem('user', foundUser);
                 window.location.href = "home.html";
             }
         });
@@ -40,14 +43,15 @@ var arrLong = [];
             var date = response[key].date;
             var waterCondition = response[key].waterCondition;
             var waterType = response[key].waterType;
-            var appendString = '<tr><td>' + location + '</td><td>'+ llat +'</td><td>'+ llong +'</td><td>' + user + '</td><td>'+ date + '</td><td>' + waterCondition + '</td><td>' + waterType + '</td></tr>';
-            $('#waterAvailability').append(appendString);
-            if (document.getElementById('waterAvailability')) {
-                arrLat.push(llat);
-                arrLong.push(llong);
-                initMap();
+            if (user == foundUser) {
+                var appendString = '<tr><td>' + location + '</td><td>'+ llat +'</td><td>'+ llong +'</td><td>' + user + '</td><td>'+ date + '</td><td>' + waterCondition + '</td><td>' + waterType + '</td></tr>';
+                $('#waterAvailability').append(appendString);
+                if (document.getElementById('waterAvailability')) {
+                    arrLat.push(llat);
+                    arrLong.push(llong);
+                    initMap();
+                }
             }
-
         }
     });
     loadJSON('./data/purityReports.json', function(response) {
@@ -71,6 +75,9 @@ var arrLong = [];
                 //initMap();
             }
         }
+
+
+
     });
 
 }); // end of document ready
