@@ -67,7 +67,6 @@ var arrLong = [];
             var virusPPM = response[key].virusPPM;
             var appendString = '<tr><td>' + location + '</td><td>'+ llat +'</td><td>'+ llong +'</td><td>' + user + '</td><td>' +  date + '</td><td>'+ waterCondition + '</td><td>' + contaminantPPM + '</td><td>' + virusPPM + '</td></tr>';
             $('#waterPurity').append(appendString);
-            console.log
             if (document.getElementById('waterPurity')) {
                 arrLat.push(llat);
                 arrLong.push(llong);
